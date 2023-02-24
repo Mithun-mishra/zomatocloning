@@ -1,4 +1,4 @@
-
+import Head from './components/Head';
 import './App.css';
 
 function App() {
