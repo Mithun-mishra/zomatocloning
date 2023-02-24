@@ -1,14 +1,13 @@
-import Head from './components/Head';
+import Head from "./components/Head";
 import './App.css';
 
 function App() {
   return (
     <>
+    <Head/>
 
-
-    <Head />
-
-    
+   
+      
 
     </>
     
