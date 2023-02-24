@@ -1,3 +1,4 @@
+import Head from "./components/Head";
 import Head from "./Components/Head";
 import './App.css';
 import Header from "./Components/Header";
@@ -49,6 +50,12 @@ Bheegi bheegi raaton mein phir tum aao na
 Aisi barsaaton mein aao na
 Ho.. aisi barsaaton mein aao na
 Aao na.. aao na.. aao na…
+
+
+    <Head />
+
+    
+
     </>
     
   );
