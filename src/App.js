@@ -1,14 +1,12 @@
 import Head from "./Components/Head";
 import './App.css';
+import Header from "./Components/Header";
 
 function App() {
   return (
     <>
-    hua hai sync
-    hua kya kuch bhi 
-    batao batao batao
-    kuch bhi nahi ho raha hai 
-    kaise banayenge project
+    <Head/>
+    <Header/>
     </>
     
   );
