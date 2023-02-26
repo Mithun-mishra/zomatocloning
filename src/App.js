@@ -1,17 +1,9 @@
-
 import './App.css';
+import React from 'react';
+import Home from './HomePg';
 
-
-function App() {
-  return (
-    <>
-  
-
-    
-
-    </>
-    
-  );
-}
+const App = () => {
+  return <Home />
+};
 
 export default App;

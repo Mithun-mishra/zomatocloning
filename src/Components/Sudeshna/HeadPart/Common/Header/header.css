@@ -1,0 +1,16 @@
+.max-width{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.header-logo{
+    height: 27px;
+    max-width: 140px;
+    margin-right: 24px;
+}
