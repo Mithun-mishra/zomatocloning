@@ -10,11 +10,35 @@ const Header = () => {
         className="header-logo"
       />
 
-      <div className="header-left"> 
+      <div className="header-right">
         <div className="header-location-search-container">
-            <div className="location-wrapper">
-                
+          <div className="location-wrapper">
+            <div className="location-icon-name">
+              <i className="fi fi-rr-marker absolute-center location-icon"></i>
+              <div>Jamshedpur</div>
             </div>
+            <i className="fi fi-rr-caret-down absolute-center"></i>
+          </div>
+          <div className="location-search-separator"> </div>
+          <div className="header-searchbar">
+            <i className="fi fi-rr-search absolute-center search-icon"></i>
+            <input
+              placeholder="Search for Restaurant, Cuisine or a Dish"
+              className="search-input"
+            />
+          </div>
+        </div>
+        <div className="profile-wrapper">
+          <div className="Log-in">
+            <button className="btn1" >
+              <div className="LogIn">Log in </div>
+            </button>
+          </div>
+          <div className="Sign-up">
+            <button className="btn2">
+              <div className="SignUp">Sign up </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>

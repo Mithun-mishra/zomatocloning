@@ -1,0 +1,40 @@
+.tab-options{
+    box-shadow: var(--border-white) 0px -0.5px 0px inset;
+}
+
+.options-wrapper{
+    display: flex;
+}
+
+.tab-item{
+    margin-right: 28px;
+    margin-left: 30px;
+    padding: 25px 15px 25px 20px;
+}
+
+.tab-name{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 25px ;
+    color: var(--inactive-text);
+}
+
+.tab-image-container{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--inactive-color);
+}
+
+.tab-image{
+    height: 45px;
+    width : 50px;
+}
+
+.active-tab{
+    border-bottom: 3px solid var(--zomato-red);
+}
+
+.active-tab .tab-name{
+    color: var(--zomato-red);
+}
