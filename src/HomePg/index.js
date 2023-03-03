@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "../Components/Sudeshna/HeadPart/Common/Header/header";
+import Header from "../Components/Sudeshna/HeadPart/Common/Header/Header";
 import Tabs from "../Components/Sudeshna/HeadPart/Common/Tabs/Tabs";
 import Delivery from "../Components/Sudeshna/HeadPart/delivery/Delivery";
 import DiningOut from "../Components/Sudeshna/HeadPart/diningOut/DiningOut";
